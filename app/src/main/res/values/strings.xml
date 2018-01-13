@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
     <string name="business_name">The Stein &amp; Vine is your neighborhood craft beer taproom, wine bar and restaurant</string>
-    <string name="business_phone">813&#8122;655&#8122;64786</string>
+    <string name="business_phone">813\-655\-4786</string>
     <string name="business_website">www.steinandvine.com</string>
     <string name="business_street">827 W Bloomingdale Ave\nBrandon, FL 33511</string>
 </resources>
