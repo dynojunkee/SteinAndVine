@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:src="@drawable/steinandvine"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="150dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="@string/business_name"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="@string/business_phone"
+        android:autoLink="phone"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:drawableTint="@color/colorAccent"
+        android:drawablePadding="5dp"
+        android:padding="8dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="@string/business_street"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_map_black_24dp"
+        android:drawableTint="@color/colorAccent"
+        android:drawablePadding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:padding="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="14sp"
+        android:autoLink="map" />
+
+    <TextView
+        android:text="@string/business_website"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:autoLink="web"/>
+
+</LinearLayout>
